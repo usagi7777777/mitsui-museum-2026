@@ -166,7 +166,7 @@ h2{font-size:clamp(24px,2.6vw,34px)}
 .essay-text blockquote{margin:40px 0 0;padding:26px 0 26px 28px;border-left:2px solid var(--kin);font-size:19px;line-height:2.1}
 
 .highlights{padding:84px 0}
-.highlight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px 24px}
+.highlight-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 24px}
 .highlight-card{transition:transform .4s var(--ease)}
 .highlight-card:hover{transform:translateY(-4px)}
 .highlight-media{position:relative;padding:8px;background:var(--paper-light);border:1px solid var(--line-strong);margin-bottom:14px}
@@ -188,8 +188,8 @@ h2{font-size:clamp(24px,2.6vw,34px)}
 .gallery-topline p{font-size:13px;letter-spacing:.24em;color:var(--mute)}
 .gallery-topline #photoCount{font-family:var(--latin);font-style:italic;font-size:30px;color:var(--kin);margin-right:6px}
 .gallery-filters{margin:0}
-.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
-.gallery-tile{position:relative;text-align:left;background:var(--paper-light);border:1px solid var(--line-strong);padding:6px;transition:transform .35s var(--ease),box-shadow .35s var(--ease)}
+.gallery-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.gallery-tile{position:relative;min-width:0;text-align:left;background:var(--paper-light);border:1px solid var(--line-strong);padding:6px;transition:transform .35s var(--ease),box-shadow .35s var(--ease)}
 .gallery-tile::before{content:"";position:absolute;inset:3px;border:1px solid var(--kin-light);pointer-events:none;z-index:1}
 .gallery-tile img{aspect-ratio:3/4;object-fit:cover;width:100%}
 .gallery-tile:hover{transform:translateY(-3px);box-shadow:0 20px 36px -26px rgba(38,36,42,.6)}
@@ -229,7 +229,7 @@ h2{font-size:clamp(24px,2.6vw,34px)}
   .home-hero,.article-hero{grid-template-columns:1fr 1fr}
   .hero-epigraph{display:none}
   .highlight-grid{grid-template-columns:repeat(2,1fr)}
-  .gallery-grid{grid-template-columns:repeat(3,1fr)}
+  .gallery-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
   .story-card{grid-template-columns:260px 1fr}
   .intro-section,.essay-inner{grid-template-columns:1fr}
   .essay-aside{flex-direction:row;align-items:center}
@@ -255,9 +255,9 @@ h2{font-size:clamp(24px,2.6vw,34px)}
   .story-card{grid-template-columns:1fr}
   .story-card-image{padding:18px 18px 0 24px}
   .story-card-copy{padding:24px 22px 24px 26px}
-  .highlight-grid{grid-template-columns:1fr 1fr;gap:18px 14px}
+  .highlight-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 14px}
   .highlight-title{font-size:15px}
-  .gallery-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
   .essay-section,.highlights,.quiet-interlude,.gallery-section{padding:56px 0}
   .essay-text p{font-size:15px}
   .next-section{grid-template-columns:1fr;gap:16px}
