@@ -484,6 +484,305 @@ window.MEMORY_ENTRIES = [
         "index": 59,
         "original": "5AA7B9FB-0D68-4DE7-8249-68489BFD6699_1_105_c.jpeg"
       }
+    ],
+    "captionLabel": "三井記念美術館 · 2026.10.20",
+    "tileFit": "cover",
+    "highlights": [
+      {
+        "photo": 2,
+        "title": "珠光青磁茶碗",
+        "description": "南宋〜元の青磁。枇杷色の釉を前に、唐物を選び取った茶人たちの眼差しへ思いを馳せる。"
+      },
+      {
+        "photo": 13,
+        "title": "粉引茶碗　銘「残雪」",
+        "description": "銘を知ると、白の景色の中に季節の移ろいまで見えてくる。"
+      },
+      {
+        "photo": 18,
+        "title": "斗々屋茶碗　銘「かすみ」",
+        "description": "茶碗に現れた景色をどう見立て、どんな銘を添えるか。"
+      },
+      {
+        "photo": 25,
+        "title": "御所丸茶碗（黒刷毛目）",
+        "description": "白と黒の対比。織部好みの沓形に、茶人の好みの強さが伝わる。"
+      },
+      {
+        "photo": 45,
+        "title": "色絵鱗文茶碗　野々村仁清作",
+        "description": "黒地に赤と金の鱗文。高麗の静けさの隣に、京焼の華やぎ。"
+      },
+      {
+        "photo": 56,
+        "title": "箱書と伝来",
+        "description": "器の美とともに、それを伝えてきた人の言葉も鑑賞の手がかり。"
+      }
+    ]
+  },
+  {
+    "slug": "okura-museum-2026-06-21",
+    "category": "museum",
+    "categoryLabel": "秋の町 ／ 美術館",
+    "date": "2026-06-21",
+    "displayDate": "2026.06.21",
+    "location": "東京・虎ノ門",
+    "title": "香りの道具に、物語が宿る。",
+    "shortTitle": "大倉集古館へ",
+    "subtitle": "特別展 中国 宋・元・明時代の漆器 ―和の漆器や香道具とともに",
+    "excerpt": "正倉院の蘭奢待、源氏物語を香で表した組香の記録、黄漆を彫った龍の盆。漆と香りをめぐって一階と二階を往復した日。",
+    "cover": "assets/design/okura-cover.webp",
+    "captionLabel": "大倉集古館 · 2026.06.21",
+    "tileFit": "contain",
+    "highlights": [
+      {
+        "photo": 7,
+        "title": "香木　銘「蘭奢待」",
+        "description": "正倉院の名香の一片。小さな木片に、千年分の手の跡が重なっている。"
+      },
+      {
+        "photo": 17,
+        "title": "香記「源氏物語新組香 紅葉賀香」",
+        "description": "光源氏と頭中将が舞う巻を、四種の香木で。全部当てると「青海波」と記す。"
+      },
+      {
+        "photo": 22,
+        "title": "龍堆黄円盆",
+        "description": "黄色い漆を彫った龍。1589年の年記。思ったより明るくて、力強い。"
+      },
+      {
+        "photo": 27,
+        "title": "菊唐草螺鈿長箱",
+        "description": "元時代の小箱。貝と真鍮線の蔓が、どこまでも流れていく。"
+      },
+      {
+        "photo": 12,
+        "title": "富士田園蒔絵硯箱",
+        "description": "明治の蒔絵の粋。井上毅に明治天皇から下賜されたもの。"
+      },
+      {
+        "photo": 18,
+        "title": "四種盤",
+        "description": "競馬香の盤を人馬の駒が走る。香りを当てる遊びが、ここまで凝っている。"
+      }
+    ],
+    "photos": [
+      {
+        "src": "assets/photos/okura-01.webp",
+        "title": "ロビーの生け花",
+        "description": "入ってすぐの吹き抜けに、石と緑の大作。",
+        "category": "place",
+        "index": 1,
+        "original": "IMG_5546.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-02.webp",
+        "title": "大倉集古館の外観",
+        "description": "朱の柱と石積みの外壁。垂れ幕は特別展「中国 宋・元・明時代の漆器」。",
+        "category": "place",
+        "index": 2,
+        "original": "IMG_5547.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-03.webp",
+        "title": "仮名の巻物（唐紙の料紙）",
+        "description": "橙・白・青緑と色を変えて継いだ料紙に、流れるような仮名。札は撮りそびれた。",
+        "category": "work",
+        "index": 3,
+        "original": "IMG_5548.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-04.webp",
+        "title": "仮名の巻物（別の箇所）",
+        "description": "同じ巻物を少しずらして。紙の文様が光で浮かぶ。",
+        "category": "work",
+        "index": 4,
+        "original": "IMG_5549.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-05.webp",
+        "title": "御家流三伝秘書",
+        "description": "江戸時代天保年間〜明治・19世紀。大倉集古館蔵。細谷松茂と都筑成幸が受けた御家流香道の秘伝書3巻。",
+        "category": "work",
+        "index": 5,
+        "original": "IMG_5550.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-06.webp",
+        "title": "御家流古五味手本木",
+        "description": "大倉集古館蔵。香木の香味を甘・苦・辛・酸・鹹の五味に分ける、その手本となる香木10種。",
+        "category": "work",
+        "index": 6,
+        "original": "IMG_5551.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-07.webp",
+        "title": "香木　銘「蘭奢待」",
+        "description": "正倉院に伝わる黄熟香の一片。極書は1935年。紀州徳川家から都筑幸哉へ渡り、本人が意匠した銀の箱に納められている。大倉集古館蔵。",
+        "category": "work",
+        "index": 7,
+        "original": "IMG_5552.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-08.webp",
+        "title": "本願寺香木百種",
+        "description": "大倉集古館蔵。本願寺大谷家に伝わった香木百種。大谷光瑞と大倉喜七郎の縁で入ったものという。",
+        "category": "work",
+        "index": 8,
+        "original": "IMG_5553.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-09.webp",
+        "title": "香木（公家や武家に伝わった香木コレクション）",
+        "description": "大倉集古館蔵。大倉久美子が集めた香木。包み紙の打曇りや落水紙も見どころと札にあった。",
+        "category": "work",
+        "index": 9,
+        "original": "IMG_5554.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-10.webp",
+        "title": "四季風景図棚",
+        "description": "土佐光孚（1780〜1852）画。江戸時代・19世紀。大倉集古館蔵。",
+        "category": "work",
+        "index": 10,
+        "original": "IMG_5555.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-11.webp",
+        "title": "松竹梅文蒔絵十種香箱",
+        "description": "江戸時代・18世紀。大倉集古館蔵。組香の道具一式を納める箱。金蒔絵に星梅鉢の家紋が散る。",
+        "category": "work",
+        "index": 11,
+        "original": "IMG_5556.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-12.webp",
+        "title": "富士田園蒔絵硯箱",
+        "description": "明治18年（1885）。大倉集古館蔵。井上毅の旧蔵品。富士を頂き、川をはさんで鶴が舞う田園。",
+        "category": "work",
+        "index": 12,
+        "original": "IMG_5557.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-13.webp",
+        "title": "御家流十組香三十種",
+        "description": "大倉集古館蔵。組香の主題ごとにまとめた香包。包み紙に主題の絵が描かれる。",
+        "category": "work",
+        "index": 13,
+        "original": "IMG_5558.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-14.webp",
+        "title": "御家流十組香三十種（別角度）",
+        "description": "源氏香、舞楽香、源氏四町香など、源氏物語を主題にした包みも。",
+        "category": "work",
+        "index": 14,
+        "original": "IMG_5559.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-15.webp",
+        "title": "解説札",
+        "description": "「香図及び木印」（江戸時代・延享3年〈1746〉）と、壁面の「源氏物語 松風」（江戸時代・17世紀）の札。",
+        "category": "label",
+        "index": 15,
+        "original": "IMG_5560.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-16.webp",
+        "title": "源氏物語 松風（掛軸）",
+        "description": "江戸時代・17世紀。大倉集古館蔵。隣の札によれば、桂の院で宴を張る場面。",
+        "category": "work",
+        "index": 16,
+        "original": "IMG_5561.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-17.webp",
+        "title": "香記「源氏物語新組香 紅葉賀香」",
+        "description": "昭和27年（1952）。大倉集古館蔵。大倉久美子らが作った組香の記録。光源氏と頭中将が舞う「紅葉賀」の巻を4種の香木で表す。",
+        "category": "work",
+        "index": 17,
+        "original": "IMG_5562.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-18.webp",
+        "title": "四種盤",
+        "description": "江戸時代・18〜19世紀。個人蔵。競馬香・矢数香・源平香・名所香の4種の組香に使う盤。",
+        "category": "work",
+        "index": 18,
+        "original": "IMG_5563.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-19.webp",
+        "title": "六曲屏風と競馬香の盤",
+        "description": "人馬の駒が走る盤の後ろに、金地の六曲屏風。屏風の札は撮りそびれた。",
+        "category": "work",
+        "index": 19,
+        "original": "IMG_5564.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-20.webp",
+        "title": "六曲屏風と競馬香の盤（引き）",
+        "description": "屏風の中にも馬と人の群れ。盤の駒と呼応するよう。",
+        "category": "work",
+        "index": 20,
+        "original": "IMG_5565.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-21.webp",
+        "title": "龍堆黄円盆",
+        "description": "明時代・1589年（万暦17）。東京国立博物館蔵。黄漆を彫った五爪の龍。年記のある堆黄としては早い例と札にあった。",
+        "category": "work",
+        "index": 21,
+        "original": "IMG_5566.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-22.webp",
+        "title": "龍堆黄円盆（正面）",
+        "description": "撮影OKの札とともに。黄色い漆が思ったより明るい。",
+        "category": "work",
+        "index": 22,
+        "original": "IMG_5567.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-23.webp",
+        "title": "龍堆黄輪花盆",
+        "description": "明時代・16〜17世紀。東京国立博物館蔵。八弁の輪花形。現存唯一の堆黄の輪花盆と札にあった。",
+        "category": "work",
+        "index": 23,
+        "original": "IMG_5568.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-24.webp",
+        "title": "龍堆黄輪花盆（正面）",
+        "description": "花びらの切り込みと、内側の朱。",
+        "category": "work",
+        "index": 24,
+        "original": "IMG_5569.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-25.webp",
+        "title": "菊唐草螺鈿長箱",
+        "description": "元時代・14世紀。大倉集古館蔵。重要美術品。黒漆に薄い貝と真鍮線で菊唐草を表す。",
+        "category": "work",
+        "index": 25,
+        "original": "IMG_5570.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-26.webp",
+        "title": "菊唐草螺鈿長箱（別角度）",
+        "description": "掌にのるほどの小ささ。",
+        "category": "work",
+        "index": 26,
+        "original": "IMG_5571.HEIC"
+      },
+      {
+        "src": "assets/photos/okura-27.webp",
+        "title": "菊唐草螺鈿長箱（寄り）",
+        "description": "貝片の蔓が、蓋から身へ途切れずに流れる。",
+        "category": "work",
+        "index": 27,
+        "original": "IMG_5572.HEIC"
+      }
     ]
   }
 ];
