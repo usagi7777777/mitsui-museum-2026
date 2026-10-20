@@ -2,21 +2,62 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#f8f5ee">
-  <meta name="description" content="旅や美術館、心に残った一日の記憶を写真と文章で綴る、小さな私的アーカイブ。">
-  <title>余白の記録｜旅と、美術館と、心に残る日々</title>
+  <meta name="theme-color" content="#f4eee0">
+  <meta name="description" content="お茶と美術館と旅。心に残った一日を、写真と短い文章で綴る朝顔の私的な記録帖。">
+  <title>朝顔の記｜お茶と、美術館と、旅の記録帖</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body data-page="home" data-base="">
   <div class="progress-line" aria-hidden="true"></div>
-  <header class="site-header"><a class="brand" href="index.html" aria-label="余白の記録 トップへ"><span class="brand-mark">余</span><span><b>余白の記録</b><small>THE MOMENT ARCHIVE</small></span></a><nav class="site-nav" aria-label="メインナビゲーション"><a href="#about">この場所について</a><a href="#records">思い出を読む</a></nav><span class="nav-edition">EST. 2026</span></header>
+  <div class="kasumi kasumi-top" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="朝顔の記 トップへ">
+      <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="17" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M24 7 L28.5 19.5 L41 24 L28.5 28.5 L24 41 L19.5 28.5 L7 24 L19.5 19.5 Z" fill="none" stroke="currentColor" stroke-width="1" opacity=".75"/><circle cx="24" cy="24" r="3.2" fill="currentColor"/><path d="M24 41 C26 45 30 46 33 45" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+      <span><b>朝顔の記</b><small>ASAGAO · A JOURNAL OF TEA, ART &amp; TRAVEL</small></span>
+    </a>
+    <nav class="site-nav" aria-label="メインナビゲーション"><a href="#about">この帖について</a><a href="#records">帖をめくる</a></nav>
+    <span class="nav-edition">二〇二六年　秋</span>
+  </header>
   <main>
-    <section class="home-hero wrap"><div class="hero-copy"><p class="eyebrow"><span class="eyebrow-rule"></span> A PERSONAL JOURNAL OF BEAUTIFUL DAYS</p><p class="hero-script">Moments worth keeping.</p><h1>心が動いた日のことを、<br><em>忘れないために。</em></h1><p class="hero-lead">旅先の風景。美術館で出会った一品。<br>季節の行事や、ふとした嬉しい出来事。<br>写真と言葉を重ねて、私だけの記憶を紡ぐ場所。</p><a class="ink-link" href="#records">記録をめくる <span aria-hidden="true">↗</span></a></div><figure class="hero-picture"><img src="assets/design/hero.webp" alt="三井記念美術館で出会った茶碗" fetchpriority="high"><figcaption><span>001 / MUSEUM NOTES</span><span>2026 · TOKYO</span></figcaption></figure></section>
-    <div class="soft-rule wrap"><span>記憶の栞</span><span>✳</span><span>THE MOMENT ARCHIVE</span></div>
-    <section class="intro-section wrap" id="about"><p class="overline">ABOUT THIS JOURNAL</p><div><h2>大切にしたいのは、<br>過ぎていく日の<em>余韻。</em></h2><p>ここは、観光ガイドではなく、私自身が見て、感じて、心に残したものの記録です。訪れた場所の情報に加え、その日だけの小さな発見や、言葉にならない美しさも綴っていきます。</p></div></section>
-    <section class="archive-section" id="records"><div class="wrap"><div class="section-top"><div><p class="overline">JOURNAL INDEX</p><h2>思い出の頁 <span class="latin-italic">/ Stories</span></h2></div><p class="section-note">訪れた場所を、ひとつずつ。</p></div><div class="category-nav" id="categoryNav" role="group" aria-label="記録の種類で絞り込み"><button class="pill active" data-filter="all" aria-pressed="true">すべて <span class="count">01</span></button><button class="pill" data-filter="museum" aria-pressed="false">美術館</button><button class="pill" data-filter="travel" aria-pressed="false">旅</button><button class="pill" data-filter="event" aria-pressed="false">行事・イベント</button></div><div id="storyCards" class="story-cards"></div><div id="emptyState" class="empty-state" hidden><span>✳</span><p>この頁には、まだ記録がありません。</p><small>次の思い出を、ここに。</small></div></div></section>
-    <section class="next-section wrap"><div class="next-symbol">✳</div><div><p class="overline">TO BE CONTINUED</p><h2>そして、次の物語へ。</h2><p>新しい場所へ行くたびに、このアルバムに一頁ずつ増やしていきます。</p></div><span class="next-number">02 — ∞</span></section>
+    <section class="home-hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-rule"></span> お茶と、美術館と、旅</p>
+        <h1 class="tate">心が動いた日のことを、<br><em>忘れないために。</em></h1>
+        <p class="hero-lead">旅先の風景。美術館で出会った一碗。季節の花と、茶室の静けさ。<br>写真と言葉を重ねて、四季の町に一帖ずつ綴っていきます。</p>
+        <a class="ink-link" href="#records">帖をめくる <span aria-hidden="true">→</span></a>
+      </div>
+      <figure class="hero-picture shikishi"><img src="assets/design/hero.webp" alt="三井記念美術館で出会った茶碗" fetchpriority="high"><figcaption><span>第一帖 ／ 秋の町</span><span>二〇二六 · 日本橋</span></figcaption></figure>
+      <p class="hero-epigraph tate" aria-hidden="true">つれづれなるままに</p>
+    </section>
+
+    <div class="soft-rule wrap"><span>六条院の四季</span><span class="mon">✿</span><span>THE FOUR TOWNS</span></div>
+
+    <section class="intro-section wrap" id="about">
+      <p class="overline">この帖について</p>
+      <div>
+        <h2>大切にしたいのは、<br>過ぎていく日の<em>余韻。</em></h2>
+        <p>ここは観光ガイドではなく、私自身が見て、感じて、心に残したものの記録です。訪れた場所のことに加えて、その日だけの小さな発見や、言葉になりきらない美しさも綴っていきます。</p>
+        <p>帖は、源氏物語の六条院にならって四つの町に分けました。春の町は花、夏の町は旅、秋の町は美術館、冬の町は茶室。季節と気分で、好きな町からどうぞ。</p>
+      </div>
+    </section>
+
+    <section class="archive-section" id="records">
+      <div class="wrap">
+        <div class="section-top"><div><p class="overline">帖の目録</p><h2>四季の町 <span class="latin-italic">/ Stories</span></h2></div><p class="section-note">訪れた場所を、ひとつずつ。</p></div>
+        <div class="category-nav towns" id="categoryNav" role="group" aria-label="町で絞り込み">
+          <button class="pill active" data-filter="all" aria-pressed="true">すべて <span class="count">01</span></button>
+          <button class="pill town-spring" data-filter="flower" aria-pressed="false"><i></i>春の町 <small>花</small></button>
+          <button class="pill town-summer" data-filter="travel" aria-pressed="false"><i></i>夏の町 <small>旅</small></button>
+          <button class="pill town-autumn" data-filter="museum" aria-pressed="false"><i></i>秋の町 <small>美術館</small></button>
+          <button class="pill town-winter" data-filter="tea" aria-pressed="false"><i></i>冬の町 <small>茶室</small></button>
+        </div>
+        <div id="storyCards" class="story-cards"></div>
+        <div id="emptyState" class="empty-state" hidden><span class="mon">✿</span><p>この町には、まだ記録がありません。</p><small>次の思い出を、ここに。</small></div>
+      </div>
+    </section>
+
+    <section class="next-section wrap"><div class="next-symbol mon">✿</div><div><p class="overline">つづく</p><h2>そして、次の帖へ。</h2><p>新しい場所へ行くたびに、この記録帖に一帖ずつ増やしていきます。</p></div><span class="next-number">第二帖 — </span></section>
   </main>
-  <footer class="site-footer"><div class="wrap footer-inner"><div><b>余白の記録</b><p>Stories of places, seasons & little discoveries.</p></div><a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false">PAGE TOP ↑</a><small>© 2026 · A PERSONAL ARCHIVE</small></div></footer>
+  <footer class="site-footer"><div class="wrap footer-inner"><div><b>朝顔の記</b><p>Tea, art, and travel through the eyes of a physician.</p></div><a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false">頁の上へ ↑</a><span class="hanko">朝顔</span><small>© 2026 · ASAGAO</small></div></footer>
   <script src="data/entries.js"></script><script src="app.js"></script>
 </body></html>

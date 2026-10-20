@@ -2,7 +2,7 @@ window.MEMORY_ENTRIES = [
   {
     "slug": "mitsui-museum-2026-10-20",
     "category": "museum",
-    "categoryLabel": "美術館",
+    "categoryLabel": "秋の町 ／ 美術館",
     "date": "2026-10-20",
     "displayDate": "2026.10.20",
     "location": "東京・日本橋",

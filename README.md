@@ -1,6 +1,8 @@
-# 余白の記録 — The Moment Archive
+# 朝顔の記 — Asagao Journal
 
-旅・美術館・行事の思い出を、写真と短い文章で残していく個人サイトです。
+お茶・美術館・旅の思い出を、写真と短い文章で残していく個人サイトです。Instagramの「朝顔」（@asagao_no_kimi）と同じ世界観で、源氏物語の六条院にならい、記録を春の町（花）・夏の町（旅）・秋の町（美術館）・冬の町（茶室）の4つに分けています。
+
+デザインは平安の料紙をイメージしました。鳥の子色の紙に金砂子、すやり霞、二藍と蘇芳の差し色、縦書きの見出し、色紙の額、朱の落款。文章は現代語のままです。
 HTML / CSS / JavaScript だけで動きます。ビルド作業も外部ライブラリも不要です。
 
 ## 収録ページ
@@ -27,7 +29,7 @@ HTML / CSS / JavaScript だけで動きます。ビルド作業も外部ライ�
    - `slug`（記事ファイル名と同じにする）、`date`、`displayDate`、`title`、`subtitle`、`excerpt`、`cover` を書き換える
    - `photos` の中身を、1枚につき `{ "src": "assets/photos/kyoto-01.webp", "title": "〇〇", "description": "ひとこと", "category": "bowl", "index": 1, "original": "" }` の形で並べる
    - `category` は `bowl`（作品）/ `box`（解説・箱書）/ `place`（建物・風景）のどれか
-   - `categoryLabel` は 美術館 / 旅 / 行事 など。トップページの絞り込みに使われる
+   - `category` は町に対応して `museum`（秋の町）/ `travel`（夏の町）/ `flower`（春の町）/ `tea`（冬の町）のどれか。`categoryLabel` は「秋の町 ／ 美術館」のように表示用の文字
 3. `stories/` に記事ページを作る
    - `stories/mitsui-museum-2026-10-20.html` をコピーして `stories/<slug>.html` に名前を変える
    - 本文（`<article class="essay-text">` の中）、日付、タイトル、見出し写真を差し替える
@@ -44,7 +46,8 @@ HTML / CSS / JavaScript だけで動きます。ビルド作業も外部ライ�
 
 ## 技術メモ
 
-- 配色は生成り（`--paper`）・墨（`--ink`）・金茶（`--accent`）の3色。`styles.css` の先頭で変えられます
+- 配色は `styles.css` の先頭にまとめています。鳥の子（`--paper`）・墨（`--ink`）・二藍（`--futaai`）・蘇芳（`--suo`）・金（`--kin`）・朱（`--shu`）と、四季の町の色（`--spring` `--summer` `--autumn` `--winter`）
+- 縦書きは `.tate` クラス。スマホ幅では自動で横書きに戻ります
 - フォントは端末の明朝体（ヒラギノ明朝など）を優先。外部フォントは読み込みません
 - スマホ・タブレット・PC対応。`prefers-reduced-motion` にも対応
 - `.nojekyll` はGitHub Pagesで必要なファイルです。消さないでください
